@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CryptoFuture | Plataforma de Criptomoedas</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+    </head>
+    <body>
+        <header>
+            <nav class="container">
+                <div class="logo">
+                    <h1>Crypto<span>Future</span></h1>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#features">Recursos</a></li>
+                    <li><a href="#markets">Mercados</a></li>
+                    <li><a href="#how-it-works">Como Funciona</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li>
+                        <a href="#contact" class="btn-secondary">Contato</a>
+                    </li>
+                    <li><a href="#" class="btn-primary">Começar</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Invista no futuro com criptomoedas</h1>
+                    <p>
+                        A plataforma mais segura e intuitiva para comprar,
+                        vender e gerenciar seus ativos digitais.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn-primary">Criar Conta</a>
+                        <a href="#" class="btn-secondary">Saiba Mais</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <h3>2M+</h3>
+                            <p>Usuários</p>
+                        </div>
+                        <div class="stat">
+                            <h3>150+</h3>
+                            <p>Países</p>
+                        </div>
+                        <div class="stat">
+                            <h3>R$10B+</h3>
+                            <p>Volume Negociado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img
+                        src="/btc-image.png"
+                        alt="Ilustração de criptomoedas"
+                    />
+                </div>
+            </div>
+            <div class="ticker-container">
+                <div class="ticker" id="crypto-ticker">
+                    <!-- Preços de criptomoedas serão inseridos via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Por que escolher a CryptoFuture?</h2>
+                    <p>
+                        Nossa plataforma oferece as melhores ferramentas para
+                        você investir com segurança
+                    </p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Segurança Máxima</h3>
+                        <p>
+                            Proteção de última geração para seus ativos digitais
+                            com armazenamento em cold wallets.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Análises Avançadas</h3>
+                        <p>
+                            Ferramentas de análise técnica e fundamentalista
+                            para tomar as melhores decisões.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3>Diversidade de Ativos</h3>
+                        <p>
+                            Acesso a mais de 200 criptomoedas e tokens para
+                            diversificar seu portfólio.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Aplicativo Mobile</h3>
+                        <p>
+                            Gerencie seus investimentos de qualquer lugar com
+                            nosso aplicativo intuitivo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="markets" class="markets">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Mercados em Tempo Real</h2>
+                    <p>Acompanhe as principais criptomoedas do mercado</p>
+                </div>
+                <div class="markets-table">
+                    <table id="crypto-table">
+                        <thead>
+                            <tr>
+                                <th>Moeda</th>
+                                <th>Preço</th>
+                                <th>24h %</th>
+                                <th>Cap. de Mercado</th>
+                                <th>Volume (24h)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Dados serão inseridos via JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="markets-cta">
+                    <a href="#" class="btn-primary">Ver Todos os Mercados</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Como Começar</h2>
+                    <p>
+                        Três passos simples para iniciar sua jornada no mundo
+                        das criptomoedas
+                    </p>
+                </div>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Crie sua conta</h3>
+                            <p>
+                                Registre-se gratuitamente em menos de 2 minutos
+                                com seu e-mail e documento.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Deposite fundos</h3>
+                            <p>
+                                Adicione saldo à sua conta via PIX,
+                                transferência bancária ou cartão de crédito.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Comece a investir</h3>
+                            <p>
+                                Compre e venda criptomoedas com facilidade e
+                                acompanhe seu portfólio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>O que nossos clientes dizem</h2>
+                    <p>Milhares de investidores já confiam na CryptoFuture</p>
+                </div>
+                <div class="testimonials-slider" id="testimonials-slider">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>
+                                "A melhor plataforma que já utilizei. Interface
+                                intuitiva e taxas competitivas. Recomendo a
+                                todos!"
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img
+                                src="/placeholder.svg?height=60&width=60"
+                                alt="Foto de perfil"
+                            />
+                            <div>
+                                <h4>Carlos Silva</h4>
+                                <p>Investidor desde 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>
+                                "O suporte ao cliente é excepcional. Sempre
+                                resolvem minhas dúvidas rapidamente e com
+                                atenção."
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img
+                                src="/placeholder.svg?height=60&width=60"
+                                alt="Foto de perfil"
+                            />
+                            <div>
+                                <h4>Ana Oliveira</h4>
+                                <p>Investidora desde 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>
+                                "As ferramentas de análise me ajudaram a tomar
+                                decisões mais inteligentes. Meu portfólio
+                                cresceu 30% em 6 meses!"
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img
+                                src="/placeholder.svg?height=60&width=60"
+                                alt="Foto de perfil"
+                            />
+                            <div>
+                                <h4>Marcos Santos</h4>
+                                <p>Investidor desde 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button id="prev-testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button id="next-testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Pronto para começar sua jornada?</h2>
+                    <p>
+                        Junte-se a milhões de investidores e comece a construir
+                        seu futuro financeiro hoje mesmo.
+                    </p>
+                    <a href="#" class="btn-primary">Criar Conta Gratuita</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Entre em Contato</h2>
+                    <p>Estamos aqui para ajudar com qualquer dúvida</p>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>contato@cryptofuture.com.br</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>0800 123 4567</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Av. Paulista, 1000 - São Paulo, SP</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    id="name"
+                                    placeholder="Seu nome"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <input
+                                    type="email"
+                                    id="email"
+                                    placeholder="Seu e-mail"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <select id="subject">
+                                    <option value="" disabled selected>
+                                        Assunto
+                                    </option>
+                                    <option value="account">Conta</option>
+                                    <option value="deposit">Depósitos</option>
+                                    <option value="withdrawal">Saques</option>
+                                    <option value="other">Outro</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea
+                                    id="message"
+                                    placeholder="Sua mensagem"
+                                    required
+                                ></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">
+                                Enviar Mensagem
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h2>Crypto<span>Future</span></h2>
+                        <p>
+                            A plataforma de criptomoedas mais confiável do
+                            Brasil.
+                        </p>
+                    </div>
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h3>Produtos</h3>
+                            <ul>
+                                <li><a href="#">Exchange</a></li>
+                                <li><a href="#">Carteira</a></li>
+                                <li><a href="#">Staking</a></li>
+                                <li><a href="#">NFTs</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h3>Empresa</h3>
+                            <ul>
+                                <li><a href="#">Sobre nós</a></li>
+                                <li><a href="#">Carreiras</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Imprensa</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h3>Suporte</h3>
+                            <ul>
+                                <li><a href="#">Central de Ajuda</a></li>
+                                <li><a href="#">Status</a></li>
+                                <li><a href="#">Taxas</a></li>
+                                <li><a href="#">Segurança</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h3>Legal</h3>
+                            <ul>
+                                <li><a href="#">Termos de Uso</a></li>
+                                <li><a href="#">Privacidade</a></li>
+                                <li><a href="#">Cookies</a></li>
+                                <li><a href="#">Compliance</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>
+                        &copy; 2023 CryptoFuture. Todos os direitos reservados.
+                    </p>
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-pix"></i>
+                        <i class="fab fa-bitcoin"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
